@@ -36,3 +36,39 @@ Mathematical model to represent the signal
     - which tells how long an interval should be
 
 `attenuation`, `noise`, `amplifier` trying to undo the attenuation
+
+![](../docs/amplitude_discretization.png)
+- Values can be uniformed into a set of values
+
+
+The general model of a transmission looks like this
+
+![](../docs/general_model_of_transmission.png)
+- Inside the channel
+
+    ![](../docs/inside_a_channel.png)
+        - <explain here>
+
+The transmitted signal gets attenuated and noisy at the end of a transmission
+
+    ![](../docs/noisy_attenuated_copy.png)
+
+- Compenstate the attenuated signal by multiplying the hypothesis with G
+
+    ![](../docs/compensate_the_attenuation.png)
+
+- However, doing that also amplifies the noise
+
+    ![](../docs/attenuation_undone_but_noise_amplified.png)
+
+- For long-distance transmissions, `repeaters` are needed
+    ![](../docs/repeaters.png)
+
+
+With digital signals, the general flow is the same, but one thing new: The `threshold`
+- ![](../docs/digital_channel.png)
+
+- Amplified noise after the attenuation compensation
+    ![](../docs/noisy_undone_attenuation_in_digital_signal.png)
+
+- Applying thresholds has the values greater than 5 become 5, less than -5 become -5, thus, ideally, recovered the original signal.
