@@ -50,7 +50,6 @@ The general model of a transmission looks like this
         - <explain here>
 
 The transmitted signal gets attenuated and noisy at the end of a transmission
-
     ![](../docs/noisy_attenuated_copy.png)
 
 - Compenstate the attenuated signal by multiplying the hypothesis with G
@@ -62,13 +61,15 @@ The transmitted signal gets attenuated and noisy at the end of a transmission
     ![](../docs/attenuation_undone_but_noise_amplified.png)
 
 - For long-distance transmissions, `repeaters` are needed
-    ![](../docs/repeaters.png)
+
+![](../docs/repeaters.png)
 
 
 With digital signals, the general flow is the same, but one thing new: The `threshold`
-- ![](../docs/digital_channel.png)
+    ![](../docs/digital_channel.png)
 
 - Amplified noise after the attenuation compensation
+
     ![](../docs/noisy_undone_attenuation_in_digital_signal.png)
 
 - Applying thresholds has the values greater than 5 become 5, less than -5 become -5, thus, ideally, recovered the original signal.
