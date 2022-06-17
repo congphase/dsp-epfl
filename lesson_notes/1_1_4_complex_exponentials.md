@@ -12,7 +12,7 @@ The complex exponential describes in compact form an oscillatory behavior with a
 
 ![](../docs/describe_a_point_coords_with_trigonometrics.png)
 
-- A point moves round and creates a circle. Place a coordinate frame in the center of the circle. That point can be described by coordinates with triogonmetric functions $ x_1(t) = sin(\omega t) $ and $ x_2(t) = cos(\omega t) $.
+- A point moves round and creates a circle. Place a coordinate frame in the center of the circle. That point can be described by coordinates with triogonmetric functions $x_1(t) = sin(\omega t)$ and $x_2(t) = cos(\omega t)$.
 
 - Or, which is easier, it can be described by Complex reference system. It can be denoted as $ x(t) = e^{j \omega t} $, in which $ \omega $ is the rotational frequency, and $ t $ is a real number indicating time.
 
@@ -42,23 +42,24 @@ Generate a sequence using complex exponential:
 ### 2-pi periodicity
 ![](../docs/2_pi_periodicity.png)
 - One point, many names ($e^{j\alpha}$ can also be $e^{j(4\pi + \alpha)}$ or $e^{j(-2\pi + \alpha)}$). This is called `Aliasing`
-    - Speaking in discrete-time context, `Aliasing` poses a limit on how fast to go around a unit circle.
+
+- Speaking in discrete-time context, `Aliasing` poses a limit on how fast to go around a unit circle.
 
 ![](../docs/2pi_by_6_limit.png) ![](../docs/pi_limit.png)
 
-        - 2 keynotes: 
-            - Range: $ \pi < \omega < 2 \pi $
-                - Consider $\omega > \pi$, trying to go faster than pi in each step in one direction also means going slower in the other direction:
+- 2 keynotes: 
+    - Range: $\pi < \omega < 2 \pi$
+        - Consider $\omega > \pi$, trying to go faster than pi in each step in one direction also means going slower in the other direction:
 
 ![](../docs/faster_and_slower_in_opposite_directions.png)
 
-                - Consider $\omega < 2\pi - \alpha$ ($\alpha$ is very small), which means the speec $\omega$ is very fast:
+- Consider $\omega < 2\pi - \alpha$ ($\alpha$ is very small), which means the speec $\omega$ is very fast:
 
 ![](../docs/2pi_minus_alpha_5th_step.png) ![](../docs/range_of_2pi_minus_alpha.png)
 
-                    - Subsequent steps "coincidentally" got in the **clockwise** pattern
+- Subsequent steps "coincidentally" got in the **clockwise** pattern
                             
-                        - This exlains why the car wheels in movies look like going backward while the car obviously move forward (The rotation speed of the wheel is larger than the frame rate of the camera)
+    - This exlains why the car wheels in movies look like going backward while the car obviously move forward (The rotation speed of the wheel is larger than the frame rate of the camera)
 
 ## Reference
 - Take a look at the relationship between Euler's formula $ e^{j\omega} = a + jb $ and Trigonometry [here](../docs/eulerformula.pdf). Briefly speaking, it applies the reasoning in trigonometry fashion to the fashion in a Complex plane by mapping the cosine-and-sine to the real-and-imaginary.
