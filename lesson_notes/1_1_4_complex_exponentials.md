@@ -41,7 +41,7 @@ Generate a sequence using complex exponential:
 
 ### 2-pi periodicity
 ![](../docs/2_pi_periodicity.png)
-- One point, many names ($e^{j\alpha}$ can also be $ e^{j(4\pi + \alpha)} $ or $e^{j(-2\pi + \alpha)}$). This is called `Aliasing`
+- One point, many names ($e^{j\alpha}$ can also be $e^{j(4\pi + \alpha)}$ or $e^{j(-2\pi + \alpha)}$). This is called `Aliasing`
     - Speaking in discrete-time context, `Aliasing` poses a limit on how fast to go around a unit circle.
 
 ![](../docs/2pi_by_6_limit.png) ![](../docs/pi_limit.png)
