@@ -44,17 +44,17 @@ Generate a sequence using complex exponential:
 - One point, many names ($e^{j\alpha}$ can also be $ e^{j(4\pi + \alpha)} $ or $e^{j(-2\pi + \alpha)}$). This is called `Aliasing`
     - Speaking in discrete-time context, `Aliasing` poses a limit on how fast to go around a unit circle.
 
-        ![](../docs/2pi_by_6_limit.png) ![](../docs/pi_limit.png)
+![](../docs/2pi_by_6_limit.png) ![](../docs/pi_limit.png)
 
         - 2 keynotes: 
-            - Range: $ \pi < \omega < 2\pi $
+            - Range: $ \pi < \omega < 2 \pi $
                 - Consider $\omega > \pi$, trying to go faster than pi in each step in one direction also means going slower in the other direction:
 
-                    ![](../docs/faster_and_slower_in_opposite_directions.png)
+![](../docs/faster_and_slower_in_opposite_directions.png)
 
                 - Consider $\omega < 2\pi - \alpha$ ($\alpha$ is very small), which means the speec $\omega$ is very fast:
 
-                    ![](../docs/2pi_minus_alpha_5th_step.png) ![](../docs/range_of_2pi_minus_alpha.png)
+![](../docs/2pi_minus_alpha_5th_step.png) ![](../docs/range_of_2pi_minus_alpha.png)
 
                     - Subsequent steps "coincidentally" got in the **clockwise** pattern
                             
