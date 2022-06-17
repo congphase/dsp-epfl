@@ -53,7 +53,7 @@ Generate a sequence using complex exponential:
 
 ![](../docs/faster_and_slower_in_opposite_directions.png)
 
-- Consider $\omega < 2\pi - \alpha$ ($\alpha$ is very small), which means the speec $\omega$ is very fast:
+- Consider $\omega < 2\pi - \alpha$ ($\alpha$ is very small), which means the speed $\omega$ is very fast:
 
 ![](../docs/2pi_minus_alpha_5th_step.png) ![](../docs/range_of_2pi_minus_alpha.png)
 
@@ -62,4 +62,4 @@ Generate a sequence using complex exponential:
     - This exlains why the car wheels in movies look like going backward while the car obviously move forward (The rotation speed of the wheel is larger than the frame rate of the camera)
 
 ## Reference
-- Take a look at the relationship between Euler's formula $ e^{j\omega} = a + jb $ and Trigonometry [here](../docs/eulerformula.pdf). Briefly speaking, it applies the reasoning in trigonometry fashion to the fashion in a Complex plane by mapping the cosine-and-sine to the real-and-imaginary.
+- Take a look at the relationship between Euler's formula $e^{j\omega} = a + jb$ and Trigonometry [here](../docs/eulerformula.pdf). Briefly speaking, it applies the reasoning in trigonometry fashion to the fashion in a Complex plane by mapping the cosine-and-sine to the real-and-imaginary.
