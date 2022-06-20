@@ -14,7 +14,7 @@ The complex exponential describes in compact form an oscillatory behavior with a
 
 - A point moves round and creates a circle. Place a coordinate frame in the center of the circle. That point can be described by coordinates with triogonmetric functions $x_1(t) = sin(\omega t)$ and $x_2(t) = cos(\omega t)$.
 
-- Or, which is easier, it can be described by Complex reference system. It can be denoted as $ x(t) = e^{j \omega t} $, in which $ \omega $ is the rotational frequency, and $ t $ is a real number indicating time.
+- Or, which is easier, it can be described by Complex reference system. It can be denoted as $x(t) = e^{j \omega t}$, in which $\omega$ is the rotational frequency, and $t$ is a real number indicating time.
 
 ### The discrete-time representation
 
