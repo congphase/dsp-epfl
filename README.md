@@ -16,6 +16,7 @@ Reversing my music vibe, first with DSP.
 |orthogonal|if the dot product between the 2 vectors is 0, they are `maximally different`, aka orthogonal|
 |Pythagoras theorem|định lý Pythago|
 |integral|tích phân|
+|right angle|góc vuông|
 
 ## Quickies
 [https://www.mathsisfun.com/algebra/vectors.html]()
