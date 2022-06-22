@@ -12,3 +12,10 @@ Reversing my music vibe, first with DSP.
 |$\lambda$ is inversely proportional to $f$ | $\lambda$ tỉ lệ nghịch với $f$ |
 | rational numbers | $\frac{2}{3}, -3, 8.75$, real numbers that can be expressed in fractions or ratios |
 |irrational numbers|$\sqrt{2}, e, \pi$|
+|parallelogram|hình bình hành|
+|orthogonal|if the dot product between the 2 vectors is 0, they are `maximally different`, aka orthogonal|
+|Pythagoras theorem|định lý Pythago|
+|integral|tích phân|
+
+## Quickies
+[https://www.mathsisfun.com/algebra/vectors.html]()
