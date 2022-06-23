@@ -17,6 +17,7 @@ Reversing my music vibe, first with DSP.
 |Pythagoras theorem|định lý Pythago|
 |integral|tích phân|
 |right angle|góc vuông|
+|induce||
 
 ## Quickies
 [https://www.mathsisfun.com/algebra/vectors.html]()
