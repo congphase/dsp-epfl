@@ -18,6 +18,7 @@ Reversing my music vibe, first with DSP.
 |integral|tích phân|
 |right angle|góc vuông|
 |induce||
+|cardinal number|a number such as 1,2,3, used to show quantity rather than order|
 
 ## Quickies
 [https://www.mathsisfun.com/algebra/vectors.html]()
