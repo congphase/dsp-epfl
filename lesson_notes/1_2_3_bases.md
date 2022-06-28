@@ -42,3 +42,18 @@ Basis for function vector spaces
     ![](../docs/n_2.png) ![](../docs/n_10.png)
 
     - The more we add, the more we approximate to the function that we want to approximate
+
+![](../docs/orthogonals_orthonormals.png)
+
+
+## Change of basis
+
+Rotating the reference system
+
+![](../docs/change_of_basis.png)
+
+![](../docs/change_of_basis_recall.png) 
+
+![](../docs/change_of_basis_rotated.png)
+
+![](../docs/change_of_basis_rotated_2.png)

@@ -21,6 +21,7 @@ Reversing my music vibe, first with DSP.
 |right angle|góc vuông|
 |induce||
 |cardinal number|a number such as 1,2,3, used to show quantity rather than order|
+|orthonormal vectors|they are all `unit vectors`, and orthogonal to each other|
 
 ## Quickies
 [https://www.mathsisfun.com/algebra/vectors.html]()
