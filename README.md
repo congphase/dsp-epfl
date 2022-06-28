@@ -1,6 +1,8 @@
 # dsp-epfl
 Reversing my music vibe, first with DSP.
 
+![](../dsp-epfl/docs/640px-Number-systems.svg.png)
+
 ## Familiar terms
 |Term|Explanation|
 |----|----|
