@@ -24,4 +24,7 @@ Reversing my music vibe, first with DSP.
 |orthonormal vectors|they are all `unit vectors`, and orthogonal to each other|
 
 ## Quickies
+
+![](./docs/fundamental_frequency.png)
+
 [https://www.mathsisfun.com/algebra/vectors.html]()
