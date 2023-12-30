@@ -1,5 +1,5 @@
 # dsp-epfl
-Reversing my music vibe, first with DSP.
+Reversing my music [vibe](https://github.com/congphase/my-t450s/blob/main/docs/nc_sony.md), first with DSP.
 
 ![](docs/640px-Number-systems.svg.png)
 
